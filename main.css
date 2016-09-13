@@ -1,3 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#header {
+    width: 100%;
+	padding: 20px;
+    background-color: #ffcb00;
+	border-bottom: 3px solid black;
+	
+}
+
+#content01 {
+	width: 20%;
+	height: 600px;
+	background-color: red;
+	border-right: 3px solid black;
+	float: left;	
+}
+
+#content02 {
+	width: 80%;
+	margin-left: 25%;
+}
+
+#footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 30px;
+   width: 100%;
+   background: #0000FF;
+   border-top: 3px solid black;
+}	
